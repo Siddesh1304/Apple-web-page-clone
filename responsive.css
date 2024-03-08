@@ -1,0 +1,107 @@
+@media screen and (max-width:822px) {
+    .display-none{
+        display: none;
+    }
+    .main-banner>.inner-main-banner{
+        display: block;
+    }
+    .main-banner>.time>figure {
+        height: 21vh;
+        width: 90%;
+    }
+    .black-bg>.inner-main-banner{
+        display: block;
+    }
+    .black-bg>.time1>figure{
+        background: url("./images/hero_iphone_14_pro__e8bufymdlseq_small.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 393px;
+        width: 413px;
+    }
+    .compare>.compare-div{
+        display: block;
+        margin: 8%;
+    }
+    .bg-light-right {
+        background-color: white;
+        padding: 7% 6% 0% 6%;
+        margin-top: 20px;
+    }
+    .main2>.main2-1{
+        display: block;
+    }
+    .main2>.main2-1>.main2-1-left{
+        width: 100%;
+    }
+    .main3>.main3-1{
+        display: block;
+    }
+    .main3>.main3-1>.main2-1-left{
+        width: 100%;
+    }
+    .icons>.main5{
+        display: block;
+    }
+    .iphone-SE{
+        display: block;
+    }
+    .iphone-SE>.left{
+        width: 100%;
+        padding: 30px;
+    }
+    .iphone-SE>.right-SE>figure{
+        width: 282px;
+        height: 470px
+    }
+    .bg-light>.bg-light-1>.bg-light-right-1{
+        width: 100%;
+        padding: 50px;
+    }
+    .bg-image>.bg-image1{
+        height: 50vh;
+    }
+    footer>.footer{
+        display: block;
+        text-align: center;
+    }
+    .seventeen-1 > .section-1 {
+        padding: 2% 6% !important;
+    }
+    .main4>.two-headphone-1{
+        background-position: center center;
+        height: 65vh;
+    }
+    nav{
+        position: sticky;
+    }
+    .divider-3-1{
+        background: black !important;
+        color: white;
+        padding: 10% 0 10% 0 !important;
+    }
+    .checked{
+        display: block !important;
+    }
+    #check:checked~ul{
+        left: 60%;
+    }
+    nav>section>.list{
+        height: 95vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: #f2f2f2;
+        top: 44px;
+        left: 100%;
+        transition: all 1s;
+        align-items: start;
+    }
+    .bg-image1{
+        padding: 10% 0 0 14% !important;
+    }
+    nav>section{
+        justify-content: space-between !important;
+    }
+}
